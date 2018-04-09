@@ -16,7 +16,6 @@ extension Droplet {
         
         get("flowers") { req in
             
-            
             let rose = Flower(name: "Rose", description: "que flor", imageURL: "")
             let lantana = Flower(name: "Lantana", description: "que flor", imageURL: "")
             let purpleHearts = Flower(name: "Purple Hearts", description: "que flor", imageURL: "")
